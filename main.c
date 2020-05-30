@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 #include <errno.h>
 
-#include <sys/mman.h>   /* for mmap */
 #include <sys/stat.h>   /* for fstat */
 #include <fcntl.h>      /* for open */
 #include <unistd.h>     /* for read */

@@ -1,11 +1,10 @@
 #define _GNU_SOURCE /* for memfd */
-#include <sys/mman.h>
+#include <sys/mman.h> /* memfd_create */
 
 #include <unistd.h> /* write */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #include "memexecve.h"
 
